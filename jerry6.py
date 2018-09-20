@@ -1,12 +1,6 @@
 for num in range(lower, upper + 1):
-
-   # order of number
    order = len(str(num))
-    
-   # initialize sum
-   sum = 0
-
-   # find the sum of the cube of each digit
+    num = 0
    temp = num
    while temp > 0:
        digit = temp % 10
