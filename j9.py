@@ -1,11 +1,11 @@
 def validateString(s):
-    letter_flag = False
-    number_flag = False
+    letter flag = False
+    number flag = False
     for i in s:
         if i.isalpha():
-            letter_flag = True
+            letter flag = True
         if i.isdigit():
             number_flag = True
-    return letter_flag and number_flag
+    return letter flag and number flag
 print validateString('hasAlphanum23')
 print validateString('some string')
